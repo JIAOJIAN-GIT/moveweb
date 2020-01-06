@@ -1,15 +1,24 @@
 <template>
   <div id="app">
-    <router-view/>
+    <!-- <router-view/> -->
+    <Foo/>
+    <Bar/>
   </div>
 </template>
 
 <script>
-export default {
+import Foo from './components/foo'
+import Bar from './components/bur'
 
+export default {
+  name: 'App',
+  components: {
+    Foo,
+    Bar
+  }
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

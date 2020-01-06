@@ -2,7 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import './utils/index'
+import './utils/vants.js'
+
+import './styles/index.css'// 引入全局样式
 
 Vue.config.productionTip = false
 

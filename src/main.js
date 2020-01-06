@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './utils/vants.js'
+import 'amfe-flexible'
 
 import './styles/index.css'// 引入全局样式
 

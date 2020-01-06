@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <!-- <router-view/> -->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1600197_hvtjwa13osg.css">
     <Foo/>
     <Bar/>
   </div>

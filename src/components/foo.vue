@@ -12,6 +12,8 @@
         <van-cell title="Cell title" value="Content" />
         <van-cell title="Cell title" value="Content" label="Description" />
         </van-cell-group>
+
+        <i class="iconfont icon-icon_fuben1"></i>
     </div>
 </template>
 
